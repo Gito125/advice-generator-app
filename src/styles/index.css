@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+
+.QuoteCard {
+  animation-name: anim;
+  animation-duration: .5s;
+}
+
+@keyframes anim {
+  from {
+    opacity: 0;
+    top: -30%;
+  }
+  to {
+    top: 0;
+    opacity: 1
+  }
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
